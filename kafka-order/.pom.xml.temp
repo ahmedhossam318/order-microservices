@@ -66,11 +66,26 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
       </plugin>
-      <plugin>
-        <groupId>io.spring.javaformat</groupId>
-        <artifactId>spring-javaformat-maven-plugin</artifactId>
-        <version>0.0.35</version>
-      </plugin>
     </plugins>
   </build>
+  <profiles>
+    <profile>
+      <id>just</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <dependencies>
+        <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-devtools</artifactId>
+          <scope>provided</scope>
+        </dependency>
+        <dependency>
+          <groupId>com.maciejwalkowiak.just</groupId>
+          <artifactId>just-spring-boot</artifactId>
+          <version>0.6.1</version>
+        </dependency>
+      </dependencies>
+    </profile>
+  </profiles>
 </project>

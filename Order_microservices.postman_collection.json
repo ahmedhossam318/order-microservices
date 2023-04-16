@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "3252f1ef-11ba-4eb1-96ab-72f9a465191c",
+		"name": "Order_microservices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19501466"
+	},
+	"item": [
+		{
+			"name": "Order_miceoservice",
+			"item": [
+				{
+					"name": "Random Item",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "create promotion",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "create discount",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
