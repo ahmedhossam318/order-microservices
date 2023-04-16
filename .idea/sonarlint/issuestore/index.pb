@@ -3,8 +3,6 @@ a
 1kafka-order/.mvn/wrapper/maven-wrapper.properties,7\d\7d1e59895ffbc71a93e75f8f5f3ef084b7a39bd5
 e
 5kafka-order/src/main/resources/application.properties,7\a\7add1218b8c5b846ca12ac8bf64d6ccecc1a4a50
-g
-7kafka-pattern/src/main/resources/application.properties,5\6\565eed880eeaa7f851ba99d28ad7d675858ac864
 |
 Lkafka-order/src/main/java/com/course/kafka/util/LocalDateTimeSerializer.java,5\2\5237d155f5cd13a6e3731489d503d4d1606eaf19
 ~
