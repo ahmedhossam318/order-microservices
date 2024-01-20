@@ -26,7 +26,38 @@ To run this project locally, you'll need Docker, Maven, and Kafka installed on y
 
 
 ## API Endpoints
-(Include a brief description of the key API endpoints for each service, their methods, request parameters, and response formats.)
+## API Endpoints
+
+### kafka-order Service
+- **Create Order**
+  - **Endpoint**: `/api/order`
+  - **Method**: POST
+  - **Request**: Includes order details such as items, quantities, and customer information.
+  - **Response**: Confirmation of the order creation with an order ID.
+
+- **Apply Discount**
+  - **Endpoint**: `/api/discount`
+  - **Method**: POST
+  - **Request**: Discount details including order ID and discount rate.
+  - **Response**: Updated order with the applied discount.
+
+- **Promotions**
+  - **Endpoint**: `/api/promotion`
+  - **Method**: POST
+  - **Request**: Details about the promotion to be applied.
+  - **Response**: Confirmation of the promotion application.
+
+### kafka-pattern Service
+
+
+### kafka-reward Service
+- **Order Rewards**
+  - **Endpoint**: `/api/rewards`
+  - **Method**: GET/POST (as applicable)
+  - **Request**: Order ID or customer details.
+  - **Response**: Details of the rewards earned for the specified order.
+
+### kafka-storage Service
 
 ## Testing
 You can test the API endpoints using the provided Postman collection:
